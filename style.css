@@ -1,0 +1,472 @@
+/* Content */
+.content {
+    
+        
+    
+    margin: 0px;
+    
+       display:flex;
+       justify-content: center;
+       flex-direction: column;
+   }
+
+/* Container */
+
+        .container33{
+        width: 100%;
+        height: 700px;
+
+        background-color: #d7eee7;
+
+    }
+/* logo */
+        .logo2{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        background-image: url(assets/images/fon.png);
+        }
+
+
+        .logo {
+        color:#34547A;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 48px;
+        line-height: 59.52px;
+        }
+
+/* Contacts or Home */
+
+.ssilka{
+    margin-left: 428px;
+    align-items: center;
+    margin-top: 49px;
+    width: 711px;
+    height: auto;
+    text-align: center;
+    display: flex;
+}
+
+/* Home */
+
+.home{
+    
+    font-family: 'Shadows Into Light', cursive;
+    font-style: normal;
+    margin-right: 40px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #34547A;
+}
+
+.home:hover{
+    margin-right: 40px;
+    margin-bottom: 5px;
+    color: black;
+    transition: 0.3s;
+    
+    
+}
+
+/* Aftor */
+.aftor{
+  
+    
+    text-align: left;
+    font-family: 'Shadows Into Light', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: black;
+    }
+    .aftor:hover{
+        margin-bottom: 5px;
+        transition: 0.4s;
+        color:#00D5E4
+        
+        
+    }
+
+
+
+/* Works */
+.works{
+    margin: 0px 0px 0px 40px;
+    font-family: 'Shadows Into Light', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    
+    color: black;
+}
+.works:hover{
+    margin: 0px 0px 5px 40px;
+    color:#FF6452;
+    transition: 0.4s;
+}
+
+/* Process */
+
+    .process{
+        
+    margin: 0px 0px 0px 40px;
+
+    font-family: 'Shadows Into Light', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+    }
+    .process:hover{
+    margin: 0px 0px 5px 40px;
+    color: #00D050;
+    transition: 0.4s;
+    }
+
+    /* Contact */
+        .contact{
+        margin: 0px 0px 0px 40px;
+
+        font-family: 'Shadows Into Light', cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.1em;
+
+        color: #000000;
+        }
+        .contact:hover{
+        margin: 0px 0px 5px 40px;
+        transition: 0.4s;
+        color: #34547A;
+        }
+
+
+/* Page 1 */
+
+
+        .images{
+
+        display: flex;
+        justify-content: center;
+
+
+        }
+        .text{
+        margin-left: 130px;
+        }
+
+
+        .button{
+
+
+        width: 225px;
+        height: 75px;
+        left: 975px;
+        top: 582px;
+
+        background: #34547A;
+        }
+
+        /* Design */
+        .design{
+
+        width: 541px;
+        height: 45px;
+        left: 974px;
+        top: 250px;
+
+        font-family: 'Shadows Into Light', cursive;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 79px;
+
+        color: #000000;
+
+        }
+        .citata{
+
+        width: 540px;
+        height: 67px;
+        left: 975px;
+        top: 355px;
+
+
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+
+        color: #727272;
+        }
+
+    /* Button */
+
+            .btn{
+            background: #34547A;
+            color:black;
+            border-radius: 25px;
+            border: 3px solid #E7E5DD;
+            margin-top: 150px;
+
+            }
+            .btn:hover{
+
+
+            border: 3px solid #34547A;
+            color:black;
+            background:#d7eee7;
+            transition: 0.4s;
+
+            }
+
+
+            .writeme{
+
+            font-family: 'Shadows Into Light', cursive;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            letter-spacing: 0.1em;
+
+            color: black;
+
+            }
+            .writeme:hover{
+            color:black;
+
+            }
+
+  /* About Me */
+        .aboutme{
+        background-image: url(assets/images/fon.png);
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+
+        }
+        .h2about{
+        font-family: 'Shadows Into Light', cursive;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+
+        color: #000000;
+        }
+        .pabout{
+        font-family: 'Shadows Into Light', cursive;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 26px;
+        text-align: center;
+
+        color: #19181fab;
+        }
+
+ /* Page 2 */
+        .page{
+
+        width: 100%;
+        height: 250px;
+        left: 0px;
+        top: 1059px;
+
+
+        background: #34547A;
+        }
+
+        .proect{
+        margin:110px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+
+        }
+
+        .proect2{
+        margin:0px 0px 0px 5px;
+
+        color: white;
+        }   
+
+        .proect3{
+        margin: 0px 0px 0px 50px;
+        }
+
+
+/* Skills */
+        .skills{
+
+        background-color: #d7eee7;
+        width: 100%;
+
+        display: flex;
+        justify-content:center;
+
+        }
+        .skilimage{
+        margin-top: 50px;
+        margin-left: 150px;
+        margin-bottom: 50px;
+        }
+        .skilimage2{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        }
+
+
+
+
+/* PAGE 2.1 */
+.page2{
+    
+
+width: 100%;
+height: 1004px;
+
+
+background-image: url(assets/images/fon.png);
+}
+
+/* Page text */ 
+.mywork{
+    display: flex;
+    flex-direction: column;
+    background-image: url(assets/images/fon.png);
+}
+.textwork{
+    margin-top: 100px;
+    font-family: 'Shadows Into Light', cursive;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+
+        color: #000000;
+}
+
+/* Page image */ 
+        .page2images{
+
+
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        background-image: url(assets/images/fon.png);
+        }
+        .img{
+
+        flex-direction: row;
+        display:flex;
+        justify-content: center;
+        opacity: 1;
+        }
+        .img:hover{
+        opacity: 0;
+        transition: 0.8s;
+        }
+
+  /* PAGE 3 */
+
+        .page3{
+        display: flex;
+        justify-content: center;
+        
+        background-image: url(assets/images/fon.png);
+        }
+
+        .page3images{
+            display: flex;
+            flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 1000px;
+
+        }
+        .pagenext{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-image: url(assets/images/fon.png);
+        }
+        .microsoft{
+        margin: 0px 0px 0px 0px;
+        }
+
+
+    /* PAGE 4 */
+
+
+            .page4{
+            width: 100%;
+           
+            background-color: #d7eee7;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+
+                
+            }
+
+            .webpage{
+
+            font-family: 'Shadows Into Light', cursive;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 37px;
+            text-align: center;
+
+            color: #000000;
+            }
+            .design2{
+
+            text-align: center;
+            font-size: 25px;
+
+            }
+
+
+
+            .design3{
+            
+            text-align: center;
+            font-size: 15px;
+            color: black;
+            }
+
+            .end{
+
+            background-image: url(assets/images/fon.png);
+           
+            height: 169px;    
+
+            }
+
+            
+            @media (max-witdh:500px){
+
+            }
