@@ -1,0 +1,49 @@
+
+/* logo */
+.logo {
+    color:#34547A;
+    font-family: 'Revalia', cursive;;
+    font-size: 48px;
+    line-height: 59.52px;
+    
+    width: 96px;
+    height: 60px;
+    left: 402px;
+    top: 50px;
+    
+
+}
+
+/* nav */
+
+.nav{
+    
+    font-family: 'Roboto', sans-serif;
+    
+    width: 611px;
+    height: 16px;
+    left: 896px;
+    top: 72px;
+   
+}
+
+
+
+.container{
+    
+width: 1920px;
+height: 700px;
+left: 0px;
+top: -7px;
+
+background: #EEEFF1;
+}
+
+.images{
+    
+    width: 357px;
+    height: 233.7px;
+    left: 487px;
+    top: 271px;
+
+}
