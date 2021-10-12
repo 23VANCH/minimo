@@ -51,7 +51,7 @@
                     — все зависит только от тебя.
                     </p>  
                     <a href="#contacts">
-                    <button  class="btn"><p class="writeme">Написать мне</p></p></button> 
+                    <button onclick="slowScroll"(link2) class="btn"  ><p class="writeme">Написать мне</p></p></button> 
                 </a>
                 </div>
             </div> 
@@ -127,7 +127,7 @@
                     <div><h2 class="webpage">Хотите Веб-Сайт?</h2></div>
                     <div class="webpage" >
                         <h3 class="design2">Мой Instagram</h3>
-                        <a class="link2" href="https://www.instagram.com/23vahan/">
+                        <a class="link2" href="https://www.instagram.com/23vahan/" target="Instagram" >
                         <img  class="instaimg" src="assets/images/instagram-seeklogo.com.svg" >
                         <h4 class="design3">@23vahan
                            </h4>
@@ -141,6 +141,15 @@
                    
                 </div>
 
+                <script type="text/javascript"> 
+                    function slowScroll(id) { 
+                        var offset = 0;
+                        $('html, body').animate({ 
+                             scrollTop: $(id).offset().top - offset 
+                        }, 5000);
+                        return false; 
+                    } 
+               </script>
 
     </body>
 </html>
