@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head class="content">
+<head>
     <meta charset="UTF-8">
-    <title>Minimo</title>
+    <title>Small Step</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Revalia&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -28,17 +31,16 @@
     <div class="container33">
         
         <div class="logo2">
-            <h2 class="logo">VG</h2> 
+            <h2 id="home" class="logo">SS</h2> 
              <div class="ssilka">
                 <a class="home" href="index.html">ГЛАВНАЯ</a>
-                <a class="aftor" href="#aboutme" >ОБ АВТОРЕ</a>
-                <a class="works" href="#works">РАБОТЫ</a>
-               
-                <a class="contact" href="#contacts">КОНТАКТЫ </a>
+                <a onclick="slowScroll(aboutme)" class="aftor" href="#aboutme" >ОБ АВТОРЕ</a>
+                <a onclick="slowScroll(works)" class="works" href="#works">РАБОТЫ</a>
+                <a onclick="slowScroll(contacts)" class="contact" href="#contacts">КОНТАКТЫ </a>
             </div>
       </div>
             <div class="images">
-                <img src="assets/images/Frame.svg">
+                <img class="frame" src="assets/images/Frame.svg">
                 
                 <div class="text">
                     <h1 class="design">Дизайн и Верстка</h1>
@@ -46,23 +48,26 @@
                     Сегодня кто угодно может выглядеть<br>
                     хорошо в недорогих вещах, ведь богатые тоже их покупают.<br>
                     Хороший дизайн сейчас есть в любом ценовом диапазоне.<br>
-                    Ты можешь быть самым элегантным в мире просто в футболке и джинсах — все зависит только от тебя.
+                    Ты можешь быть самым элегантным в мире просто в футболке и джинсах 
+                    — все зависит только от тебя.
                     </p>  
-                    <a href="#contacts">
-                    <button  class="btn"><p class="writeme">Написать мне</p></p></button> 
-                </a>
+                    
+                    <button onclick="slowScroll(contacts)"  class="btn"  ><p class="writeme">Написать мне</p></p></button> 
+                
                 </div>
             </div> 
+           
                  
     </div>
+                <div id="aboutme" class="aboutme">
+                                
+                <h2 class="h2about">Обо мне</h2>
+                <p class="pabout" >Я не ухожу. Просто иногда меня нет. <br>
+                    Э. М. Ремарк</p>
+                </div>
                  
                     
-                    <div id="aboutme" class="aboutme">
-                        
-                        <h2 class="h2about">Обо мне</h2>
-                        <p class="pabout" >Я не ухожу. Просто иногда меня нет. <br>
-                            Э. М. Ремарк</p>
-                </div>
+                   
                 <div  class="page">
                     <div class="proect">
                         <img class="proect3" src="assets/images/Group.svg">
@@ -85,9 +90,11 @@
 
                 
                  <div   class="skills">
-                    <div class="skilimage2" ><img src="assets/images/skills__list.svg"></div>
-                   
+                   <img class="skilim" src="assets/images/skills__list.svg">
+                 
+                 
                    <img class="skilimage"  src="assets/images/face.svg"> 
+                
                 </div>
           
                 <div class="page2">
@@ -121,7 +128,7 @@
                     <div><h2 class="webpage">Хотите Веб-Сайт?</h2></div>
                     <div class="webpage" >
                         <h3 class="design2">Мой Instagram</h3>
-                        <a class="link2" href="https://www.instagram.com/23vahan/">
+                        <a id="link2" class="link2" href="https://www.instagram.com/23vahan/" target="Instagram" >
                         <img  class="instaimg" src="assets/images/instagram-seeklogo.com.svg" >
                         <h4 class="design3">@23vahan
                            </h4>
@@ -132,9 +139,32 @@
                     </h3></div>
                 </div>
                  <div class="end">
-                   
-                </div>
+                   <img class="end2" onclick="slowScrollhome(home)" src="assets/images/page2images/home.png"> 
+                   <h3 class="naverx">На верх</h3>
 
+                </div>
+                
+
+             
+
+                <script type="text/javascript"> 
+                    function slowScroll(id) { 
+                        var offset = 0;
+                        $('html, body').animate({ 
+                             scrollTop: $(id).offset().top - offset 
+                        }, 2500);
+                        return false; 
+                    } 
+               </script>
+               <script type="text/javascript"> 
+                function slowScrollhome(id) { 
+                    var offset = 0;
+                    $('html, body').animate({ 
+                         scrollTop: $(id).offset().top - offset 
+                    }, 500);
+                    return false; 
+                } 
+           </script>
 
     </body>
 </html>
